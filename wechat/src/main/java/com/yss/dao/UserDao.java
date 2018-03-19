@@ -29,8 +29,8 @@ public class UserDao {
 	
 	public void insertUser(User user)
 	{
-		 jdbcTemplate.update("insert into USER_TEST(ID,NAME,AGE,ADDRESS)"
-				+ "values(2,3,4,5)");
+		 jdbcTemplate.update("insert into USER_TEST(NAME,AGE,ADDRESS)"
+				+ "values(3,4,5)");
 		 
 	}
 
